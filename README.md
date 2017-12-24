@@ -14,7 +14,7 @@ Exchange rates are sourced from [fixer api](https://api.fixer.io)
 
 ## Installation
 
-Run the following commmand in your terminal:
+Run the **following commmand** in your terminal:
 
 ```
 git clone https://github.com/mattBlackDesign/crypto-portfolio-cli.git && cd crypto-portfolio-cli && make && mv portfolio /usr/local/bin && chmod +x /usr/local/bin/portfolio
@@ -28,8 +28,8 @@ The top 10 cryptocurrencies are shown by default by entering
 portfolio USD BTC 1.1 ETH 2.3 LTC 4.5
 ```
 
-The following currencies are supported
-USD,CAD,EUR,AUD,BGN,BRL,CHF,CNY,CZK,DKK,GBP,HKD,HRK,HUF,IDR,ILS,INR,JPY,KRW,MXN,MYR,NOK,NZD,PHP,PLN,RON,RUB,SEK,SGB,THB,TRY,ZAR
+The following currencies are supported 💰
+```USD,CAD,EUR,AUD,BGN,BRL,CHF,CNY,CZK,DKK,GBP,HKD,HRK,HUF,IDR,ILS,INR,JPY,KRW,MXN,MYR,NOK,NZD,PHP,PLN,RON,RUB,SEK,SGB,THB,TRY,ZAR```
 
 
 **Crypto Portfolio** supports the first 100 coins on [coinmarketcap](https://coinmarketcap.com)
