@@ -39,7 +39,7 @@ int main(int argc, char *argv[]) {
 
     std::map<std::string, double> wallet;
     double total = 0.0;
-    auto coinmarketcap = json::parse(curl("https://api.coinmarketcap.com/v1/ticker/?limit=10"));
+    auto coinmarketcap = json::parse(curl("https://api.coinmarketcap.com/v1/ticker/?limit=100"));
     auto fixer = json::parse(curl("https://api.fixer.io/latest?base=USD"));
     string currency = string(argv[1]);
     double usd_to_currency = 0.0;
@@ -48,7 +48,7 @@ int main(int argc, char *argv[]) {
 
     if (currency != "USD") usd_to_currency = fixer["rates"][currency];
 
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < 100; i++) {
       string price_usd = coinmarketcap[i]["price_usd"];
       wallet[coinmarketcap[i]["symbol"]] *= stod(price_usd);
       if (currency != "USD") wallet[coinmarketcap[i]["symbol"]] *= usd_to_currency;
