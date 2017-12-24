@@ -1,6 +1,6 @@
-# Crypto Wallet Cli
+# Crypto Portfolio Cli
 
-Crypto Wallet Cli is a command line interface written in C++ that allows users to input their current crypto portfolio and display balance in currency of choice. 
+Crypto Portfolio Cli is a command line interface written in C++ that allows users to input their current crypto portfolio and display balance in currency of choice. 
 
 [![GitHub stars](https://img.shields.io/github/stars/mattblackdesign/crypto-portfolio-cli.svg?style=social&label=Stars)](https://github.com/mattblackdesign/crypto-portfolio-cli)
 [![GitHub code size in bytes](https://img.shields.io/github/size/mattblackdesign/crypto-portfolio-cli/main.cpp.svg)](https://raw.githubusercontent.com/mattblackdesign/crypto-portfolio-cli/master/main.cpp)
