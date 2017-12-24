@@ -23,7 +23,6 @@ git clone https://github.com/mattBlackDesign/crypto-portfolio-cli.git && cd cryp
 ## Usage
 
 Enter your currency and the coins in your portfolio. 
-The top 10 cryptocurrencies are shown by default by entering
 ```
 portfolio USD BTC 1.1 ETH 2.3 LTC 4.5
 ```
